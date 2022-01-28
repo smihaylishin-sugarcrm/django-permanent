@@ -14,7 +14,7 @@ except ImportError:
 
 setup(
     name='django-permanent',
-    version='1.1.8',
+    version='1.1.9',
     description='Yet another approach to provide soft (logical) delete or masking (thrashing) django models instead of deleting them physically from db.',
     author='Mikhail Antonov',
     author_email='atin65536@gmail.com',
@@ -32,6 +32,7 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.9",
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: BSD License",
     ],
